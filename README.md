@@ -42,11 +42,6 @@ All data is stored in the browser's LocalStorage under keys prefixed with `ipt:`
 
 The app is client-side only and needs no backend. Dates use the device's local time and weeks start on Monday. Study hours are derived from completed task estimates, solved problems (30 minutes each) and mock interview durations.
 
-## Deployment
-
-- **GitHub Pages:** push to GitHub, then Settings → Pages → deploy from the `main` branch root.
-- **Vercel:** import the repository. Framework preset: *Other*. No build command, output directory is the root.
-- **Netlify:** import the repository, leave the build command empty and publish directory as `.`.
 
 ## Future Improvements
 
