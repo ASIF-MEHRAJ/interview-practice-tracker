@@ -1,0 +1,45 @@
+@media (min-width: 1180px) {
+  .top-nav { display: flex; }
+  .bottom-nav { display: none; }
+  .page { padding-bottom: 80px; }
+}
+@media (max-width: 1179px) {
+  .kpis { grid-template-columns: repeat(2, 1fr); }
+  .s4, .s5, .s7, .s8 { grid-column: span 12; }
+  .charts { grid-template-columns: 1fr; }
+}
+@media (max-width: 900px) {
+  .banner { grid-template-columns: 1fr; }
+  .tiles.four { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .appbar { gap: 10px; }
+  .add-btn span { display: none; }
+  .add-btn { width: 40px; padding: 0; justify-content: center; }
+  .kpis { gap: 12px; }
+  .kpi { padding: 16px; }
+  .kpi strong { font-size: 2rem; }
+  .tiles.three { grid-template-columns: 1fr; }
+  .tiles.three .tile { grid-template-columns: auto 1fr; column-gap: 14px; align-items: center; }
+  .tiles.three .tile-ico { grid-row: span 2; margin: 0; }
+  .meters { grid-template-columns: 1fr; }
+  .item { flex-wrap: wrap; padding: 16px; }
+  .item-actions { width: 100%; }
+  .item-actions .btn { flex: 1; }
+  .grid-form, .sheet-links { grid-template-columns: 1fr; }
+  .toolbar select, .toolbar .btn { flex: 1 1 100%; width: 100%; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stat { padding: 16px; }
+  .chart-box { height: 240px; }
+  .card.pad, .goal { padding: 18px; }
+  .cell { width: 14px; height: 14px; }
+  .streak-row { gap: 22px; }
+  .hero-actions .btn { flex: 1; }
+  .banner-stat b { font-size: 2.8rem; }
+  #toasts { left: 12px; right: 12px; bottom: 84px; }
+}
+@media (max-width: 380px) {
+  .kpis, .stats, .tiles.four { grid-template-columns: 1fr; }
+  .page { padding-inline: 12px; }
+  .brand span:last-child { display: none; }
+}
